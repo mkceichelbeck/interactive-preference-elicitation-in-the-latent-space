@@ -1,6 +1,6 @@
 # Pairwise Bayesian Optimization for Preference Elicitation
 
-This repository contains the core implementation of the models and algorithms described in the paper: [Supporting High-Stakes Decision Making Through Interactive Preference Elicitation in the Latent Space](https://iclr.cc/virtual/2026/poster/10007140)
+This repository contains the core implementation of the models and algorithms described in the paper: [Supporting High-Stakes Decision Making Through Interactive Preference Elicitation in the Latent Space](https://openreview.net/forum?id=ra7CSHcVCv) (ICLR 2026)
 
 It provides a modular framework for performing pairwise Bayesian optimization (BO) to elicit user preferences. The repository supports both standard feature-space BO and latent-space BO via an autoencoder.
 
@@ -78,3 +78,17 @@ uv run pairwise-bo stat \
 ```
 
 This will print the final evaluation metrics to the console after all loops complete.
+
+## Citation
+
+If you use this code in your research, please cite:
+
+```bibtex
+@inproceedings{eichelbeck2026supporting,
+  title={Supporting High-Stakes Decision Making Through Interactive Preference Elicitation in the Latent Space},
+  author={Eichelbeck, Michael and Voigt, Tim and Althoff, Matthias},
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=ra7CSHcVCv}
+}
+```
